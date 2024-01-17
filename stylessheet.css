@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    /*resets all default styles*/
+}
+
+body{
+    /*background-color: goldenrod; - color name*/
+    /*background-color: #55431566; hexadecimal*/
+    background-color: rgb(255,255,255);
+
+}
+h1{
+    color: blueviolet;
+    margin: 10px;
+    background-color: black;
+    /* comment syntax */
+    /*padding: 25px;*/
+    font-size: 30px;
+    font-family: Tahoma sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 10px aquamarine solid;
+    border-radius: 15px;
+}
+
+h2{
+    font-family: Times New Roman sans-serif;
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*margin-right: 15px;*/
+    /*margin-left: 15px;*/
+    margin: 20px 50px;
+    border: 5px brown solid;
+    font-size: 25px;
+    padding: 15px 40px;
+}
+
+#paragraph2{
+    color: white;
+    background-color: red;
+}
+
+.boldText{
+    font-weight: bolder;
+    font-size: 2em;
+    color:crimson;
+}
+.container{
+
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+    border: 10px purple dotted;
+}
+.boxModel h2 {
+    color: blue;
+}
+
+.boxModel:hover{
+    background-color: green;
+
+}
+
+a {
+    text-decoration: none; /*remove the underline in the url*/
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+a:active {
+    color: red; /*color when you click*/
+}
+
+a:visited {
+    color: darkorchid; /*color after already clicked it*/
+}
+
+a:hover {
+    color: gold; /*changes the color text when the cursor is on it*/
+
+}
